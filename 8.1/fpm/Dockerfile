@@ -112,6 +112,7 @@ RUN set -eux; \
       --without-sqlite3 \
       --without-cdb \
       --with-openssl \
+      --with-zlib \
       --disable-cgi \
       --enable-cli \
       --enable-fpm \

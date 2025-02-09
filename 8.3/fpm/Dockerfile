@@ -110,6 +110,7 @@ RUN set -eux; \
       --without-cdb \
       --with-pear \
       --with-openssl \
+      --with-zlib \
       --enable-mbstring \
       --enable-mysqlnd \
       --disable-cgi \

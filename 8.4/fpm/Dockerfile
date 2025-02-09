@@ -112,6 +112,7 @@ RUN set -eux; \
       --with-openssl \
       --enable-mbstring \
       --enable-mysqlnd \
+      --with-zlib \
       --disable-cgi \
       --enable-cli \
       --enable-fpm \

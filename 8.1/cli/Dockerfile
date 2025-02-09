@@ -104,6 +104,7 @@ RUN set -eux; \
       --without-sqlite3 \
       --without-cdb \
       --with-openssl \
+      --with-zlib \
       # it's cli image so disable fpm & and cgi
       --disable-cgi \
       --disable-fpm \
